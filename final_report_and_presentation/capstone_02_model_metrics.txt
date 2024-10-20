@@ -1,0 +1,25 @@
+Capstone_02_Model_Metrics
+- A short document of the final model features, parameters,
+hyperparameters, and performance metrics.
+
+Final_model: Random Forest Regressor
+Hyperparameter_01: n_estimators=1000
+Hyperparameter_02: imputer=mean
+Hyperparameter_03: scaler=StandardScaler
+
+Top_10_most_important_features:
+generation fossil hard coal_daily_max
+generation other renewable_daily_max
+generation fossil gas_daily_max
+generation waste_daily_max
+generation hydro run-of-river and poundage_daily_max
+gneeration nuclear_daily_max
+month_12
+generation other_daily_max
+generaiton hydro water reservoir_daily_max
+generation biomass_daily_max
+
+Final model metrics
+Cross-validation mean of the mean squared errors: 1.3012873620352254
+Cross-validation standard deviation of the mean squared errors: 0.11292252738847346
+Mean Absolute Error based on y_test and deriving predictions on X_test data:0.7576039680365213
